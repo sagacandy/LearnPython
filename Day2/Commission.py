@@ -1,0 +1,5 @@
+name=input("Enter your Name:")
+sales=input("Enter your sales:")
+sales=float(sales)
+commission=float(sales*13/100)
+print(f"Dear '{name}' your total commission of sales {sales} would be {commission}")
